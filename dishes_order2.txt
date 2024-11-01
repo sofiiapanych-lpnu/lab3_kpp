@@ -1,0 +1,3 @@
+Cheeseburger, 65.0
+Tea, 60.0
+Cheeseburger, 65.0

@@ -1,0 +1,32 @@
+- !!Models.Order
+  client:
+    firstName: John
+    lastName: Doe
+    phoneNumber: 111-222-3333
+  dishes:
+  - name: Pizza Margarita
+    price: 200.0
+  - name: Carbonara
+    price: 195.0
+  - &id001
+    name: Cheeseburger
+    price: 65.0
+  orderID: 1
+- !!Models.Order
+  client:
+    firstName: Mary
+    lastName: Smith
+    phoneNumber: 222-222-3333
+  dishes:
+  - *id001
+  - name: Tea
+    price: 60.0
+  - *id001
+  orderID: 2
+- !!Models.Order
+  client:
+    firstName: Jane
+    lastName: Smith
+    phoneNumber: 222-222-3333
+  dishes: []
+  orderID: 3

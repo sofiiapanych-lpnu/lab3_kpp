@@ -1,0 +1,26 @@
+[
+  {
+    "orderID": 1,
+    "client": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "phoneNumber": "111-222-3333"
+    }
+  },
+  {
+    "orderID": 2,
+    "client": {
+      "firstName": "Mary",
+      "lastName": "Smith",
+      "phoneNumber": "222-222-3333"
+    }
+  },
+  {
+    "orderID": 3,
+    "client": {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "phoneNumber": "222-222-3333"
+    }
+  }
+]
